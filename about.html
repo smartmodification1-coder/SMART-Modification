@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Smart Modification</title>
+    <meta name="description"
+        content="Learn about Smart Modification, Sri Lanka's premier vehicle customization workshop.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            900: '#134e4a',
+                            neon: '#00f2ea',
+                            dark: '#0f172a',
+                            darker: '#020617',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-nav {
+            background: rgba(2, 6, 23, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-brand-darker text-gray-100 font-sans antialiased">
+    <!-- Navbar (Same as Index) -->
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0 flex items-center space-x-2">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-tr from-brand-neon to-brand-600 rounded-lg flex items-center justify-center transform rotate-3 hover:rotate-12 transition-transform duration-300">
+                            <span class="text-black font-bold text-xl">S</span>
+                        </div>
+                        <span class="text-2xl font-bold tracking-tighter text-white">SMART<span
+                                class="text-brand-neon">MODS</span></span>
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html"
+                            class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-brand-neon transition-colors">Home</a>
+                        <a href="shop.html"
+                            class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-brand-neon transition-colors">Shop</a>
+                        <a href="about.html"
+                            class="px-3 py-2 rounded-md text-sm font-medium text-brand-neon hover:text-white transition-colors">About</a>
+                        <a href="contact.html"
+                            class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-brand-neon transition-colors">Contact</a>
+                    </div>
+                </div>
+                <!-- Cart & Mobile Menu Button -->
+                <div class="flex items-center space-x-4">
+                    <button class="text-gray-300 hover:text-brand-neon transition relative">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                        </svg>
+                        <span
+                            class="absolute -top-1 -right-1 bg-brand-neon text-black text-xs font-bold px-1.5 py-0.5 rounded-full">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="relative py-32 bg-gray-900 border-b border-gray-800 overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1493238792015-1a419ac69251?auto=format&fit=crop&w=1920&q=80"
+                alt="Workshop" class="w-full h-full object-cover opacity-20">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-brand-darker"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-16">
+            <!-- Added pt-16 to clear navbar visually better -->
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6">Driven By <span
+                    class="text-brand-neon">Passion</span></h1>
+            <p class="text-xl text-gray-400 max-w-3xl mx-auto">Reimagining car culture in Sri Lanka, one modification at
+                a time.</p>
+        </div>
+    </div>
+
+    <!-- Story Section -->
+    <div class="py-24 bg-brand-darker">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-brand-neon/20 rounded-2xl blur-xl"></div>
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80"
+                        alt="Mechanic working" class="relative rounded-2xl shadow-2xl border border-gray-700">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-white mb-6">Our Story</h2>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        Founded in 2015, Smart Modification started as a small garage with a big dream: to bring
+                        world-class vehicle customization to Sri Lanka. We saw a gap in the market for high-quality
+                        parts and professional installation services that enthusiasts could trust.
+                    </p>
+                    <p class="text-gray-400 mb-8 leading-relaxed">
+                        Today, we are the leading destination for automotive upgrades, serving thousands of happy
+                        customers. From simple aesthetic tweaks to full performance overhauls, our team of expert
+                        technicians treats every car as if it were their own.
+                    </p>
+                    <div class="flex space-x-8">
+                        <div>
+                            <span class="block text-4xl font-bold text-brand-neon">9+</span>
+                            <span class="text-sm text-gray-500 uppercase tracking-wide">Years Experience</span>
+                        </div>
+                        <div>
+                            <span class="block text-4xl font-bold text-brand-neon">100%</span>
+                            <span class="text-sm text-gray-500 uppercase tracking-wide">Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="py-24 bg-gradient-to-b from-gray-900 to-brand-darker">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-16">Meet The <span class="text-brand-neon">Team</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div
+                    class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-brand-neon transition-colors group">
+                    <div
+                        class="w-32 h-32 mx-auto rounded-full overflow-hidden mb-6 border-4 border-gray-700 group-hover:border-brand-neon transition-colors">
+                        <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&w=300&q=80"
+                            alt="Team Member" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Kamal Perera</h3>
+                    <p class="text-brand-neon text-sm mb-4">Master Technician</p>
+                    <p class="text-gray-400 text-sm">Specialist in engine tuning and performance upgrades.</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div
+                    class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-brand-neon transition-colors group">
+                    <div
+                        class="w-32 h-32 mx-auto rounded-full overflow-hidden mb-6 border-4 border-gray-700 group-hover:border-brand-neon transition-colors">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+                            alt="Team Member" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Nuwan Silva</h3>
+                    <p class="text-brand-neon text-sm mb-4">Design Lead</p>
+                    <p class="text-gray-400 text-sm">Expert in body kits, wraps, and visual aesthetics.</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div
+                    class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-brand-neon transition-colors group">
+                    <div
+                        class="w-32 h-32 mx-auto rounded-full overflow-hidden mb-6 border-4 border-gray-700 group-hover:border-brand-neon transition-colors">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80"
+                            alt="Team Member" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Dilshan Jayasuriya</h3>
+                    <p class="text-brand-neon text-sm mb-4">Audio Specialist</p>
+                    <p class="text-gray-400 text-sm">Creator of award-winning car audio systems.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-black py-8 border-t border-gray-800 text-center text-gray-500 text-sm">
+        &copy; 2024 Smart Modification. All rights reserved.
+    </footer>
+</body>
+
+</html>
